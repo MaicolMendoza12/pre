@@ -1,1 +1,281 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Enlaces y Títulos</title>
+    <!-- Enlazar con Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+</head>
+<style>
+    /* Estilos para la sección de la página */
+    .seccion {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        margin: 20px;
+    }
+    .seccion img {
+        width: 850px;
+        height: 550px;
+        display: block;
+        margin: 0 auto;
+    }
+    .seccion a {
+        color: #007bff;
+        text-decoration: none;
+        font-weight: bold;
+    }
+    .seccion a:hover {
+        text-decoration: underline;
+    }
+    .contenido {
+        max-width: 800px;
+    }
+    h1 {
+        color: #333;
+    }
+    h3 {
+        text-align:left;
+    }
+    h2 {
+        text-align:left; 
+    }
+</style>
+<body>
 
+<div class="container my-4">
+    <h1 class="text-center">Parte mas importantes de las página web</h1>
+    
+    <!-- Carrusel -->
+    <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3" aria-label="Slide 4"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="4" aria-label="Slide 5"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="5" aria-label="Slide 6"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="6" aria-label="Slide 7"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="7" aria-label="Slide 8"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="8" aria-label="Slide 9"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="9" aria-label="Slide 10"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="10" aria-label="Slide 11"></button>
+        </div>
+        <div class="carousel-inner">
+            <!-- Slide 1 -->
+            <div class="carousel-item active">
+                <a href="#pagina-principal">
+                    <img src="img/8.png" class="d-block w-100" alt="La página principal">
+                    <div class="carousel-caption d-none d-md-block">
+                       
+                    </div>
+                </a>
+                <div class="seccion">
+                    <h1><a href="https://iemariainmaculada.edu.pe/" target="_blank">La página principal</a></h1>
+                    <div class="contenido">
+                        <h3>La página principal de nuestro sitio web es el primer punto de acceso a todos los recursos importantes de la institución. En esta página, los usuarios pueden encontrar información clave sobre la misión, visión, valores, y otros aspectos fundamentales que definen nuestra identidad.</h3>
+                    </div>
+                    <img src="img/9.png" alt="Imagen explicativa de la página principal">
+                    <h1>Codigo</h1>
+                    <img src="img/10.png" alt="Imagen explicativa de la página principal">
+                </div>
+            </div>
+            <!-- Slide 2 -->
+            <div class="carousel-item">
+                <a href="#login">
+                    <img src="img/11.png" class="d-block w-100" alt="Login">
+                    <div class="carousel-caption d-none d-md-block">
+                    </div>
+                </a>
+                <div class="seccion">
+                    <h1><a href="https://iemariainmaculada.edu.pe/login/index.php?sesskey=smSOZkCgZoAcceder" target="_blank">Login</a></h1>
+                    <div class="contenido">
+                        <h2 target="_blank">Inicio de sesión y acceso al curso </h2>
+                        <h3>
+                            Al ingresar a la plataforma, el usuario debe introducir su nombre de usuario y contraseña en el formulario de inicio de sesión. Estos datos son verificados por el sistema para confirmar la identidad del usuario.
+                            Una vez que los datos son correctos, el usuario es redirigido automáticamente a su página de curso. En esta página, podrá acceder a los materiales de estudio, como videos, lecturas y tareas, y realizar actividades interactivas. También podrá consultar sus calificaciones y fechas de entrega.
+                            Además, el usuario tiene la opción de participar en foros y realizar otras interacciones con el instructor y los compañeros de clase.</h3>
+                    </div>
+                    <img src="img/12.png" alt="Imagen explicativa de la página principal">
+                    <h1>Codigo</h1>
+                    <img src="img/13.png" alt="Imagen explicativa de la página principal">
+                </div>
+            </div>
+            <!-- Slide 3 -->
+            <div class="carousel-item">
+                <a href="#quienes-somos">
+                    <img src="img/14.png" class="d-block w-100" alt="Quienes somos">
+                    <div class="carousel-caption d-none d-md-block">
+                       
+                    </div>
+                </a>
+                <div class="seccion">
+                    <h1><a href="https://iemariainmaculada.edu.pe/theme/resena%20historica/quienes.html" target="_blank">¿Quiénes somos?</a></h1>
+                    <div class="contenido">
+                        <h2 >La sección "Quiénes somos" fue creada con el objetivo de proporcionar a los usuarios una visión clara de la institución, </h2>
+                        <h3>
+                            Estructura HTML: Se estructuró utilizando etiquetas básicas como h1 para el título, p para el texto explicativo, y img> para incluir imágenes relacionadas. Esto permitió que la información fuera fácil de leer y entender. 
+                        </h3>
+                        </div>
+                    <img src="img/15.png" alt="Imagen explicativa de la página principal">
+                    <h1>Codigo</h1>
+                </div>
+            </div>
+            <!-- Slide 4 -->
+            <div class="carousel-item">
+                <a href="#mision-vision">
+                    <img src="img/16.png" class="d-block w-100" alt="Misión y Visión">
+                    <div class="carousel-caption d-none d-md-block">
+                        
+                    </div>
+                </a>
+                <div class="seccion">
+                    <h1><a href="https://iemariainmaculada.edu.pe/theme/resena%20historica/Visi%C3%B3n%20y%20Misi%C3%B3n.html" target="_blank">Misión y Visión</a></h1>
+                    <div class="contenido">
+                        <h2 >"Misión y Visión" </h2>
+                        <h3>
+                            
+                          destacando los aspectos clave de la estructura HTML, el diseño CSS y la consistencia visual con el resto del sitio web, para asegurar que la información sea clara, accesible y coherente. 
+                        </h3>
+                    </div>
+                    <img src="img/17.png" alt="Imagen explicativa de la página principal">
+                    
+                </div>
+            </div>
+            <!-- Slide 5 -->
+            <div class="carousel-item">
+                <a href="#normal-convivencia">
+                    <img src="img/19.jpeg" class="d-block w-100" alt="Normal de Convivencia">
+                    <div class="carousel-caption d-none d-md-block">
+                       
+                    </div>
+                </a>
+                    <div class="seccion">
+                        <h1><a href="https://iemariainmaculada.edu.pe/theme/Normas/Normas.html" target="_blank">Normal de Convivencia</a></h1>
+                        <div class="contenido">
+                            <h2 >Diseño en Canva</h2>
+                                
+                        <img src="img/21.png" alt="Imagen explicativa de la página principal">
+                        <h2 > Desarrollo en HTML </h2>
+                          
+                        </div>
+                    <img src="img/20.jpeg" alt="Imagen explicativa de la página principal">
+                    <h2 >Creación de carteles </h2>
+                   
+                    </div>
+        
+            
+                </div>
+            
+            <!-- Slide 6 -->
+            <div class="carousel-item">
+                <a href="#valores">
+                    <img src="img/18.png" class="d-block w-100" alt="valores">
+                    <div class="carousel-caption d-none d-md-block">
+                     
+                    </div>
+                </a>
+                <div class="seccion">
+                    <h1><a href="https://iemariainmaculada.edu.pe/theme/resena%20historica/valores.html" target="_blank">Valores</a></h1>
+                    <div class="contenido">
+                        
+                        <h3>
+                            
+                            Este proceso de buscar imágenes y luego desarrollar el HTML permitió crear una sección "Valores" visualmente atractiva y clara. Las imágenes acompañan las descripciones de cada valor, haciendo la sección más comprensible y visualmente impactante para los usuarios.  </h3>
+                    </div>
+                    <img src="img/23.png" alt="Imagen explicativa de la página principal">
+                    
+                </div>
+            </div>
+            <!-- Slide 7 -->
+            <div class="carousel-item">
+                <a href="#historia">
+                    <img src="img/24.png" class="d-block w-100" alt="Historia">
+                    <div class="carousel-caption d-none d-md-block">
+                       
+                    </div>
+                </a>
+                <div class="seccion">
+                <h1><a href="https://iemariainmaculada.edu.pe/theme/resena%20historica/resena.html" target="_blank">Historia</a></h1>
+                <img src="img/25.png" alt="Imagen explicativa de la página principal">
+            </div>
+            </div>
+            <!-- Slide 8 -->
+            <div class="carousel-item">
+                <a href="#biblioteca">
+                    <img src="img/33.png" class="d-block w-100" alt="Biblioteca">
+                    <div class="carousel-caption d-none d-md-block">
+                        
+                    </div>
+                </a>
+                <div class="seccion">
+                    <h1><a href="https://iemariainmaculada.edu.pe/theme/Lonchecito%20Lector/lector.html" target="_blank">Biblioteca</a></h1>
+                    <img src="img/34.png" alt="Imagen explicativa de la página principal">
+                 
+                </div>
+                
+            </div>
+            <!-- Slide 9 -->
+            <div class="carousel-item">
+                <a href="#lonchecito-lector">
+                    <img src="img/29.png" class="d-block w-100" alt="Lonchecito Lector">
+                    <div class="carousel-caption d-none d-md-block">
+                        
+                    </div>
+                </a>
+                <div class="seccion">
+                <h1><a href="https://iemariainmaculada.edu.pe/theme/Lonchecito%20Lector/lector.html" target="_blank">Lonchecito lector</a></h1>
+                <img src="img/30.png" alt="Imagen explicativa de la página principal">
+               <img src="img/32.jpeg" alt="Imagen explicativa de la página principal">
+            </div>
+            </div>
+            <!-- Slide 10 -->
+            <div class="carousel-item">
+                <a href="#ventana">
+                    <img src="img/26.png" class="d-block w-100" alt="ventana">
+                    <div class="carousel-caption d-none d-md-block">
+                        
+                        
+                    </div>
+                </a>
+                <div class="seccion">
+                <h1><a href="https://iemariainmaculada.edu.pe/theme/contacto/contacto.php" target="_blank">Contacto</a></h1>
+                <img src="img/27.png" alt="Imagen explicativa de la página principal">
+                <img src="img/28.jpeg" alt="Imagen explicativa de la página principal">
+            </div>
+            </div>
+            <!-- Slide 10 -->
+            <div class="carousel-item">
+                <a href="#contacto">
+                    <img src="img/70.png" class="d-block w-100" alt="Contacto">
+                    <div class="carousel-caption d-none d-md-block">
+                        
+                        
+                    </div>
+                </a>
+                <div class="seccion">
+                <h1><a href="https://iemariainmaculada.edu.pe/" target="_blank">Ventana Emergentes</a></h1>
+                <img src="img/71.png" alt="Imagen explicativa de la página principal">
+                
+            </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </button>
+    </div>
+</div>
+
+<!-- Enlazar con Bootstrap JS y Popper.js -->
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.min.js"></script>
+
+</body>
+</html>
