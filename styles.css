@@ -1,0 +1,234 @@
+/* Estilos globales */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+}
+
+/* Sección de proyectos */
+.projects {
+    text-align: center;
+    padding: 40px 20px;
+    background-color: #f8f9fa;
+}
+
+.projects h1 {
+    font-size: 24px;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+/* Carrusel: Cambiar para que los proyectos estén centrados */
+.carousel {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap; /* Los elementos se envolverán para ajustarse a la pantalla */
+    gap: 20px;
+    padding: 20px 0;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+/* Elementos del carrusel (los proyectos) */
+.carousel-item {
+    flex: 1 0 45%; /* Ajusta el ancho de los proyectos */
+    max-width: 500px; /* Tamaño máximo de cada proyecto */
+    background-color: #f1f1f1;
+    border-radius: 8px;
+    overflow: hidden;
+    text-align: center;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    border: 2px solid #ccc; /* Borde alrededor de cada proyecto */
+}
+
+.carousel-item img {
+    width: 400px;
+    height: 300px;
+    display: block;
+    margin: 0 auto; /* Centra la imagen en el contenedor */
+}
+
+.caption {
+    padding: 10px;
+}
+
+.caption p {
+    font-size: 14px;
+    color: #555;
+    margin: 10px 0;
+}
+
+.caption a {
+    text-decoration: none;
+    color: #007bff;
+    font-weight: bold;
+    font-size: 14px;
+}
+
+.caption a:hover {
+    text-decoration: underline;
+}
+
+/* Estilos para la ventana emergente */
+.modal {
+    display: none; /* Oculta la ventana por defecto */
+    position: fixed;
+    z-index: 1000;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.7); /* Fondo semitransparente oscuro */
+    overflow: auto;
+}
+
+/* Estilo del contenido del modal */
+.modal-content {
+    background-color: #000; /* Fondo negro */
+    color: #fff; /* Letra blanca */
+    margin: 5% auto;
+    padding: 20px;
+    border: 1px solid #888;
+    width: 80%;
+    max-width: 650px;
+    text-align: center;
+    max-height: 90vh;
+    overflow-y: auto;
+    position: relative;
+}
+
+.close {
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+    color: white;
+    cursor: pointer;
+}
+
+.anuncio {
+    margin: 20px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.anuncio img {
+    width: 300px;
+    height: auto;
+    margin-right: 20px;
+}
+footer {
+    background: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+    margin-top: 20px;
+}
+ 
+.contenedor {
+    display: flex;
+    gap: 40px;
+    justify-content: center;
+    align-items: center;
+}
+
+.cuadro {
+    background-color: white;
+    border: 2px solid #ccc;
+    padding: 40px;
+    width: 500px; /* Aumenta el ancho del cuadro */
+    text-align: center;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+}
+
+.cuadro img {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 20px;
+}
+
+.cuadro h2 {
+    margin: 20px 0;
+    font-size: 32px; /* Aumenta el tamaño del título */
+}
+
+.cuadro a {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 15px 30px; /* Aumenta el tamaño del botón */
+    font-size: 20px; /* Aumenta el tamaño del texto del botón */
+    background-color: #007bff;
+    color: white;
+    text-decoration: none;
+    border-radius: 8px;
+}
+
+.cuadro a:hover {
+    background-color: #0056b3;
+}
+main {
+    background: #000000;
+    color: #fffefe;
+    text-align: center;
+    padding: 10px 0;
+    margin-top: 20px;
+}
+/* Estilos responsivos */
+@media (max-width: 768px) {
+    .container {
+        width: 100%;
+        padding: 10px;
+    }
+    header ul {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    header li {
+        padding: 10px 0;
+    }
+    .section p {
+        font-size: 16px;
+    }
+}
+
+@media (max-width: 480px) {
+    .section h3 {
+        font-size: 24px;
+    }
+    .section p {
+        font-size: 14px;
+    }
+}
+/* Responsividad para pantallas pequeñas */
+@media (max-width: 768px) {
+    .carousel {
+        gap: 10px;
+    }
+
+    .carousel-item {
+        flex: 0 0 250px;
+    }
+}
+
+@media (max-width: 600px) {
+    .popup {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    .popup-left, .popup-right {
+        margin: 0;
+    }
+
+    .popup-image {
+        width: 150px;
+    }
+}
